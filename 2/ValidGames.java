@@ -8,9 +8,6 @@ public class ValidGames {
         try {
             Scanner myReader = new Scanner(new File("input.txt"));
             int sumIDs = 0;
-            final int redLimit = 12;
-            final int greenLimit = 13;
-            final int blueLimit = 14;
 
             while(myReader.hasNextLine()) {
                 String s = myReader.nextLine();
