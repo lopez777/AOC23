@@ -1,7 +1,6 @@
 
 import java.io.*;
 import java.util.*;
-import java.util.Scanner;
 
 public class PartNumbers {
     public static List<String> result = new ArrayList<>();
